@@ -1,0 +1,142 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "TestMeApp Login",
+        "description": "",
+        "id": "testmeapp-scenarios;testmeapp-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 787800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user login to TestMeApp using valid credentials",
+            "match": {
+              "location": "MultipleScenario.user_login_to_TestMeApp_using_valid_credentials()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Search Products - testmeapp",
+        "description": "",
+        "id": "testmeapp-scenarios;search-products---testmeapp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 93900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user searching prodects available in catelog",
+            "match": {
+              "location": "MultipleScenario.user_searching_prodects_available_in_catelog()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Add products - testmeapp",
+        "description": "",
+        "id": "testmeapp-scenarios;add-products---testmeapp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 89700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user adding products to cart",
+            "match": {
+              "location": "MultipleScenario.user_adding_products_to_cart()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@add"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Logout - testmeaap",
+        "description": "",
+        "id": "testmeapp-scenarios;logout---testmeaap",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user logout from TestMeApp",
+            "match": {
+              "location": "MultipleScenario.user_logout_from_TestMeApp()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@logout"
+          }
+        ]
+      }
+    ],
+    "name": "TestMeApp scenarios",
+    "description": "",
+    "id": "testmeapp-scenarios",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Exercise2.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
